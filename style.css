@@ -1,6 +1,7 @@
 body {
 	margin:0px;
 	padding:0px;
+	font-family:"Helvetica", san-serif;
 }
 
 body, html, .page {
@@ -15,11 +16,47 @@ body, html, .page {
 	height:100%;
 	margin:0px;
 	float:left;
+	padding:4% 4% 4% 2%; 
+
+}
+
+.text-content nav{
+	margin-bottom:40px;
+}
+
+.text-content nav  ul{
+	padding:0px;
+}
+
+.text-content nav, ul, li {
+	float:left;
+
+}
+
+.text-content nav, ul, li, a {
+	list-style-type:none;
+	color:#fff;
+	text-decoration:none;
+	padding-right:10px;
+}
+
+.text-content nav, ul, li, a:hover {
+	color:#5f8fa9;
+}
+
+.text-content nav, ul, li, a:active {
+	color:#5f8fa9;
+}
+
+.text-content footer {
+	position:fixed;
+	bottom: 40px;
+	margin-left: auto;
 }
 
 .image-content {
 	float:left;
-	width:73%;
+	width:67%;
 	height:100%;
 }
 
