@@ -92,6 +92,10 @@ a:active {
 	left:35%;
 }
 
+.text-content footer img {
+	margin-left:20px;
+}
+
 .text-content .price {
 	margin-top:20px;
 	margin-bottom:20px;
