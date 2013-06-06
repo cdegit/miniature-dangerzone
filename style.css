@@ -1,0 +1,25 @@
+body {
+	margin:0px;
+	padding:0px;
+}
+
+body, html, .page {
+	height:100%;
+}
+
+.text-content {
+	width:27%;
+	min-width:300px;
+	max-width:450px;
+	background:#062131;
+	color:#fff;
+	height:100%;
+	margin:0px;
+	float:left;
+}
+
+.image-content {
+	float:left;
+	width:73%;
+	height:100%;
+}
