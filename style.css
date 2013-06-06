@@ -8,6 +8,45 @@ body, html, .page {
 	height:100%;
 }
 
+ul {
+	margin:0px;
+	padding:0px;
+}
+
+li {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	float:left;
+}
+
+h1 {
+	border-top:3px solid #fff;
+	display:inline-block;
+}
+
+h1 a {
+	color:#fff;
+}
+
+h2 {
+   font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+
+a {
+	color:#fff;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#5f8fa9;
+}
+
+a:active {
+	color:#5f8fa9;
+}
+
 .text-content {
 	width:27%;
 	max-width:450px;
@@ -17,47 +56,46 @@ body, html, .page {
 	margin:0px;
 	float:left;
 	padding:4% 4% 4% 2%; 
+	position:relative;
 
 }
 
 .text-content nav{
 	margin-bottom:40px;
+	min-height:50px;
 }
 
 .text-content nav  ul{
 	padding:0px;
 }
 
-.text-content nav, ul, li {
+.text-content nav ul li {
 	float:left;
+	list-style:none;
 
 }
 
-.text-content nav, ul, li, a {
-	list-style-type:none;
-	color:#fff;
+.text-content nav ul li a {
 	text-decoration:none;
-	padding-right:10px;
-}
-
-.text-content nav, ul, li, a:hover {
-	color:#5f8fa9;
-}
-
-.text-content nav, ul, li, a:active {
-	color:#5f8fa9;
+	margin-right:10px;
+	padding-top:2px;
+	border-top:2px solid #fff;
 }
 
 .text-content footer {
-	position:fixed;
-	bottom: 40px;
-	margin-left: auto;
+	position:absolute;
+	top:80%;
+	left:35%;
 }
 
 .image-content {
 	float:left;
 	width:67%;
 	height:100%;
+}
+
+.image-content a {
+	color:#333;
 }
 
 .special-products {
@@ -96,4 +134,33 @@ body, html, .page {
 
 .special-products .product-info h2, .special-products .product-info p {
 	margin:3px;
+}
+
+.product-images li {
+	list-style:none;
+	margin:0px;
+	float:left;
+	display:inline-block;
+	position:relative;
+	width:25%;
+}
+
+.product-images li:first-child {
+	width:100%;
+}
+
+.product-images li img {
+	display:inline-block;
+	width:100%;
+	height:auto%;
+}
+
+.products {
+	margin-top:65px;
+	margin-left:35px;
+}
+
+.products li {
+	margin-right:20px;
+	margin-bottom:40px;
 }
