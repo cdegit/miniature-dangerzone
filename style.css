@@ -9,7 +9,6 @@ body, html, .page {
 
 .text-content {
 	width:27%;
-	min-width:300px;
 	max-width:450px;
 	background:#062131;
 	color:#fff;
@@ -35,12 +34,21 @@ body, html, .page {
 	float:left;
 	display:inline-block;
 	position:relative;
-	padding-bottom:5px;
-	margin-right:15px;
+	width:50%;
+}
+
+.special-products li:first-child {
+	width:100%;
+}
+
+.special-products li:last-child {
+	/*margin-left:5%;*/
 }
 
 .special-products li img {
 	display:inline-block;
+	width:100%;
+	height:auto%;
 }
 
 .special-products .product-info {
