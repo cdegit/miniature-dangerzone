@@ -2,6 +2,7 @@ body {
 	margin:0px;
 	padding:0px;
 	font-family:"Helvetica", san-serif;
+	font-size:12px;
 }
 
 body, html, .page {
@@ -21,8 +22,9 @@ li {
 }
 
 h1 {
-	border-top:3px solid #fff;
+	border-top:4px solid #fff;
 	display:inline-block;
+	font-size:30px;
 }
 
 h1 a {
@@ -32,6 +34,7 @@ h1 a {
 h2 {
    font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
+   font-size:24px;
 }
 
 a {
@@ -77,9 +80,10 @@ a:active {
 
 .text-content nav ul li a {
 	text-decoration:none;
-	margin-right:10px;
+	margin-right:20px;
 	padding-top:2px;
-	border-top:2px solid #fff;
+	border-top:1px solid #fff;
+	font-size:16px;
 }
 
 .text-content footer {
@@ -88,13 +92,19 @@ a:active {
 	left:35%;
 }
 
+.text-content .price {
+	margin-top:20px;
+	margin-bottom:20px;
+	font-size:20px;
+}
+
 .image-content {
 	float:left;
 	width:67%;
 	height:100%;
 }
 
-.image-content a {
+.image-content .products a {
 	color:#333;
 }
 
@@ -163,4 +173,9 @@ a:active {
 .products li {
 	margin-right:20px;
 	margin-bottom:40px;
+}
+
+fieldset {
+	border:0px;
+	padding:0px;
 }
