@@ -31,6 +31,10 @@ h1 a {
 	color:#fff;
 }
 
+h1 a:hover {
+	border-top:4px solid #5f8fa9;
+}
+
 h2 {
    font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
@@ -65,7 +69,8 @@ a:active {
 
 .text-content nav{
 	margin-bottom:40px;
-	min-height:50px;
+	margin-top:15px;
+	min-height:100px;
 }
 
 .text-content nav  ul{
@@ -75,6 +80,7 @@ a:active {
 .text-content nav ul li {
 	float:left;
 	list-style:none;
+	margin-top:15px;
 
 }
 
@@ -87,10 +93,20 @@ a:active {
 	font-size:16px;
 }
 
+.text-content nav ul li a:hover {
+	border-top:1px solid #5f8fa9;
+}
+
 .text-content #shopping-cart {
 	position:absolute;
 	right:20%;
-	top:100px;
+	top:90px;
+	padding:5px;
+	border-radius:3px;
+}
+
+.text-content #shopping-cart:hover {
+	background:#13384e;
 }
 
 .text-content footer {
@@ -189,4 +205,24 @@ a:active {
 fieldset {
 	border:0px;
 	padding:0px;
+}
+
+form #quantity {
+	border:none;
+	width:40px;
+	color:#fff;
+	background:#13384e;
+}
+
+form #submit {
+	border:none;
+	background:#3a6379;
+	color:#fff;
+	margin-top:20px;
+	border-radius:2px;
+	padding:4px;
+}
+
+form #submit:hover {
+	background:#13384e;
 }
