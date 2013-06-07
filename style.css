@@ -165,11 +165,13 @@ a:active {
 
 .special-products .product-info {
 	position:absolute;
-	top:70%;
+	top:75%;
 	margin-left:30px;
 	background-color:rgba(0,0,0,0.6);
 	padding:2px;
 	border-radius:2px;
+	max-width:45%;
+	border-top:1px solid #fff;
 }
 
 .special-products .product-info h2, .special-products .product-info p {
