@@ -1,0 +1,14 @@
+.text-content {
+	float:none;
+	width:100%;
+	height:auto;
+}
+
+.text-content footer {
+	position:relative;
+}
+
+.image-content {
+	float:none;
+	width:100%;
+}
