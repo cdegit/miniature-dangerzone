@@ -1,0 +1,16 @@
+.image-content {
+	overflow:auto;
+}
+
+.image-content li {
+	float:none;
+	padding-bottom:20px;
+	display:block;
+	width:100%;
+}
+
+.special-products .product-info {
+	position:relative;
+	max-width:100%;
+	margin-left:0px;
+}
