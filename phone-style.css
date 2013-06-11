@@ -4,6 +4,19 @@
 	height:auto;
 }
 
+h1 {
+	margin:2px;
+}
+
+.text-content #shopping-cart {
+	top:25px;
+}
+
+.text-content nav {
+	min-height:40px;
+	margin:0px;
+}
+
 .text-content footer {
 	position:relative;
 }
