@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" media="only screen and (max-width: 480px)" href="phone-style.css" /> <!-- phone style -->	
+		<link rel="stylesheet" media="only screen and (min-width:481px) and (max-width:768px)" href="tablet-style.css" /> <!-- table style -->	
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery include -->
+		<script type="text/javascript" src="script.js"></script>
+		<title>Bezal | Checkout</title>
+	</head>
+	<body>
+		<div class="page">
+			<div class="text-content">
+				<header>
+					<h1><a href="index.html">Bezal</a></h1>
+					
+					<div id="shopping-cart">
+						<a href=""><img src="resources/cart.png" alt="Shopping Cart"/></a>
+					</div>
+					
+					<nav>
+						<ul>
+							<li><a href="collection.html">the Collection</a></li>
+							<li><a href="story.html">our Story</a></li>
+							<li><a href="community.html">the Community</a></li>
+							<li><a href="contact.html">contact Us</a></li>
+						</ul>
+					</nav>
+				</header>
+				
+				<div class="description">
+				<h2>Checkout</h2>
+				<p>
+				Welcome to our secure online checkout process. We strive to make this process as simple and 
+				efficient as possible. All information is transmitted using high level SSL encryption for your protection.
+				</p>
+				<p>
+				Bezal does not store credit card information on our servers other than the last four digits of your card number for reference. All credit card information is processed by Authorize.net using their secure payment gateway.
+				</p>
+				</div>
+					
+				<footer>
+				<!-- social media links -->
+					<a href=""><img src="resources/f_icon.png" alt="Facebook" /></a>
+					<a href=""><img src="resources/t_icon.png" alt="Twitter" /></a>
+					<a href=""><img src="resources/i_icon.png" alt="Instagram" /></a>
+				</footer>
+			
+			</div><!-- text-content -->
+			
+			<div class="image-content">
+				<ul class="checkout">
+					<li>
+						<img src="resources/lystra_thumb.jpg" alt="Lystra" />
+							<div class="checkout-info">
+								<h2>Lystra</h2>
+								<p>The natural and gentle armchair</p>
+								<fieldset>
+								Quantity: <input type="number" id="quantity" min="1"/>
+								</fieldset>
+								<div class="price">$1059.99</div>
+							</div>
+					</li>
+					<li>
+						<img src="resources/sargon_thumb.jpg" alt="Sargon" />
+							<div class="checkout-info">
+								<h2>Sargon</h2>
+								<p>The modern twist on a traditional sofa</p>
+								<fieldset>
+								Quantity: <input type="number" id="quantity" min="1"/>
+								</fieldset>
+								<div class="price">$1049.99</div>
+							</div>
+					</li>
+				
+			</div><!-- image-content -->
+			
+			
+		</div><!-- page -->
+	</body>
+</html>
