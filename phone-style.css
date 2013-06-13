@@ -1,3 +1,8 @@
+body {
+	overflow:auto;
+	overflow-x:hidden;
+}
+
 .text-content {
 	float:none;
 	width:100%;
@@ -29,4 +34,22 @@ h1 {
 .image-content {
 	float:none;
 	width:100%;
+	overflow:visible;
+}
+
+.image-content li {
+	float:none;
+	padding-bottom:20px;
+	display:block;
+	width:100%;
+}
+
+.products li {
+	margin-left:40px;
+}
+
+.special-products .product-info {
+	position:relative;
+	max-width:100%;
+	margin-left:0px;
 }

@@ -130,6 +130,7 @@ a:active {
 	float:left;
 	width:67%;
 	height:100%;
+	overflow:auto;
 }
 
 .image-content .products a {
