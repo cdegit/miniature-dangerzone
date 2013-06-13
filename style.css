@@ -209,6 +209,26 @@ a:active {
 	margin-bottom:40px;
 }
 
+#founders {
+	margin-left:40px;
+	margin-top:65px;
+}
+
+#founders li {
+	float:none;
+	margin-bottom:30px;
+}
+
+#founders .founder-info {
+	display:inline-block;
+	max-width:400px;
+	padding-left:5px;
+}
+
+#founders .founder-info a {
+	color:#5f8fa9;
+}
+
 fieldset {
 	border:0px;
 	padding:0px;
