@@ -273,3 +273,34 @@ form #submit {
 form #submit:hover {
 	background:#13384e;
 }
+
+form input[type="submit"] {
+	border:none;
+	background:#3a6379;
+	color:#fff;
+	margin-top:20px;
+	border-radius:2px;
+	padding:4px;
+}
+
+form input[type="submit"]:hover {
+	background:#13384e;
+}
+
+.contact-form {
+	margin-left:40px;
+	margin-top:40px;
+}
+
+.contact-form form label {
+	display:block;
+	font-weight:bold;
+}
+
+.contact-form input[type="text"], .contact-form input[type="mail"], .contact-form textarea {
+	width:300px;
+}
+
+.contact-form fieldset {
+	padding-bottom:20px;
+}

@@ -53,16 +53,22 @@
 					<h3>Get in Touch</h3>
 					<p>Have a product in mind, or any other questions? Let us know!</p>
 					<form>
-						<label for="name">Name:*</label>
-						<input name="name" type="text" placeholder="John Smith" required autofocus/>
+						<fieldset>
+							<label for="name">Name:*</label>
+							<input name="name" type="text" placeholder="John Smith" required autofocus/>
+						</fieldset>
+
+						<fieldset>
+							<label for="email">Email:*</label>
+							<input name="email" type="mail" placeholder="youremail@domain.com" required />
+						</fieldset>
 						
-						<label for="email">Email:*</label>
-						<input name="email" type="mail" placeholder="youremail@domain.com" required />
+						<fieldset>
+							<label for="message">Message:*</label>
+							<textarea name="message" placeholder="Your message here..." rows=14 required></textarea>
+						</fieldset>
 						
-						<label for="message">Message:*</label>
-						<textarea name="message" placeholder="Your message here..." required></textarea>
-						
-						<button type="submit">Submit</button>
+						<input type="submit" value="Submit" />
 					</form>
 				</div>
 			</div><!-- image-content -->
