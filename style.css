@@ -112,8 +112,8 @@ a:active {
 
 .text-content footer {
 	position:absolute;
-	top:80%;
-	left:35%;
+	bottom:18%;
+	min-height:30px;
 }
 
 .text-content footer img {
