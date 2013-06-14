@@ -114,10 +114,11 @@ a:active {
 	position:absolute;
 	bottom:18%;
 	min-height:30px;
+	margin-top:40px;
 }
 
 .text-content footer img {
-	margin-left:20px;
+	margin-right:20px;
 }
 
 .price {
