@@ -201,14 +201,22 @@ a:active {
 	height:auto%;
 }
 
-.products {
+.products, .checkout {
 	margin-top:65px;
 	margin-left:35px;
 }
 
-.products li {
+.products li, .checkout li {
 	margin-right:20px;
 	margin-bottom:40px;
+}
+
+.checkout-divider {
+	clear:both;
+}
+
+#checkout-information p {
+	padding:10px;
 }
 
 #founders {
@@ -256,7 +264,7 @@ fieldset {
 	padding:0px;
 }
 
-form #quantity {
+form .quantity {
 	border:none;
 	width:40px;
 	color:#fff;
