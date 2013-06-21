@@ -201,12 +201,12 @@ a:active {
 	height:auto%;
 }
 
-.products, .checkout {
+.products, .cart {
 	margin-top:65px;
 	margin-left:35px;
 }
 
-.products li, .checkout li {
+.products li, .cart li {
 	margin-right:20px;
 	margin-bottom:40px;
 }
@@ -215,7 +215,7 @@ a:active {
 	clear:both;
 }
 
-#checkout-information #total {
+#cart-information #total {
 	padding:10px;
 }
 
