@@ -57,12 +57,17 @@
 							<div class="checkout-info">
 								<h2>Lystra</h2>
 								<p>The natural and gentle armchair</p>
+								<div class="stock">In stock, 5 available</div>
+								<div class="price">$1059.99</div>
 								<form>
 									<fieldset>
-										Quantity: <input type="number" class="quantity" min="1" placeholder="1"/>
+										<label for="quantity">Quantity:</label> <input type="number" class="quantity" min="1" max="5" placeholder="1"/>
+									</fieldset>
+									
+									<fieldset>
+										<button>Remove from Cart</button>
 									</fieldset>
 								</form>
-								<div class="price">$1059.99</div>
 							</div>
 					</li>
 					<li>
@@ -70,12 +75,17 @@
 							<div class="checkout-info">
 								<h2>Sargon</h2>
 								<p>The modern twist on a traditional sofa</p>
+								<div class="stock">In stock, 3 available</div>
+								<div class="price">$1049.99</div>
 								<form>
 									<fieldset>
-										Quantity: <input type="number" class="quantity" min="1" placeholder="1"/>
+										<label for="quantity">Quantity:</label> <input type="number" class="quantity" min="1" max="3" placeholder="1"/>
+									</fieldset>
+									
+									<fieldset>
+										<button>Remove from Cart</button>
 									</fieldset>
 								</form>
-								<div class="price">$1049.99</div>
 							</div>
 					</li>
 				</ul>
@@ -83,7 +93,11 @@
 				<div id="checkout-information">
 					<hr class="checkout-divider">
 					
-					<p>Item total:$2109.98</p>
+					<div id="total">Item total:$2109.98</div>
+					
+					<form>
+						<input type="submit" value="Proceed to Checkout" />
+					</form>
 					
 					<hr class="checkout-divider">
 				</div><!-- checkout-information -->

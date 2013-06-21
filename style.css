@@ -215,7 +215,7 @@ a:active {
 	clear:both;
 }
 
-#checkout-information p {
+#checkout-information #total {
 	padding:10px;
 }
 
@@ -295,6 +295,10 @@ form input[type="submit"] {
 
 form input[type="submit"]:hover {
 	background:#13384e;
+}
+
+.stock {
+	color:#24bd24;
 }
 
 .contact-form {
