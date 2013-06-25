@@ -29,6 +29,18 @@ $(document).ready(function() {	// jQuery wrapper
 		});
 	});
 	
+	$('.remove-item').each( function(index) {
+		$(this).click( function(event) {
+			event.preventDefault();
+			var checkout_obj = $(this).parents(".cart-info");
+			checkout_obj.attr("price", "0");
+			
+			var entry = checkout_obj.parents("li");
+			entry.remove();
+			updateTotal();
+		});
+	});
+	
 	// updates the total price
 	function updateTotal() {
 		var newTotal = 0;
@@ -39,5 +51,6 @@ $(document).ready(function() {	// jQuery wrapper
 		newTotal = newTotal.toFixed(2);
 		$("#total").html("Item total: $" + newTotal);
 	}
+	
 	
 });
