@@ -297,7 +297,7 @@ form #submit:hover {
 	background:#13384e;
 }
 
-form input[type="submit"] {
+form input[type="submit"], button {
 	border:none;
 	background:#3a6379;
 	color:#fff;
@@ -306,7 +306,7 @@ form input[type="submit"] {
 	padding:4px;
 }
 
-form input[type="submit"]:hover {
+form input[type="submit"]:hover , button:hover{
 	background:#13384e;
 }
 
