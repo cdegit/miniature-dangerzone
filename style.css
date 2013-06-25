@@ -34,6 +34,7 @@ h1 a {
 
 h1 a:hover {
 	border-top:4px solid #5f8fa9;
+	color:#fff;
 }
 
 h2 {
@@ -99,6 +100,7 @@ a:active {
 
 .blue-bar nav ul li a:hover {
 	border-top:1px solid #5f8fa9;
+	color:#5f8fa9;
 }
 
 .blue-bar #shopping-cart {
