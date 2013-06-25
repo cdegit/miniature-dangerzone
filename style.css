@@ -65,6 +65,8 @@ a:active {
 	float:left;
 	padding:4% 4% 4% 2%; 
 	position:relative;
+	overflow-x:hidden;
+	overflow-y:auto;
 
 }
 
@@ -111,10 +113,11 @@ a:active {
 }
 
 .blue-bar footer {
-	position:absolute;
-	bottom:18%;
+	/*position:absolute;
+	bottom:18%;*/
 	min-height:30px;
 	margin-top:40px;
+	clear:both;
 }
 
 .blue-bar footer img {
