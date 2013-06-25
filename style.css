@@ -55,7 +55,7 @@ a:active {
 	color:#5f8fa9;
 }
 
-.text-content {
+.blue-bar {
 	width:27%;
 	max-width:450px;
 	background:#062131;
@@ -68,24 +68,24 @@ a:active {
 
 }
 
-.text-content nav{
+.blue-bar nav{
 	margin-bottom:40px;
 	margin-top:15px;
 	min-height:100px;
 }
 
-.text-content nav  ul{
+.blue-bar nav  ul{
 	padding:0px;
 }
 
-.text-content nav ul li {
+.blue-bar nav ul li {
 	float:left;
 	list-style:none;
 	margin-top:15px;
 
 }
 
-.text-content nav ul li a {
+.blue-bar nav ul li a {
 	text-decoration:none;
 	margin-right:20px;
 	padding-top:2px;
@@ -94,11 +94,11 @@ a:active {
 	font-size:16px;
 }
 
-.text-content nav ul li a:hover {
+.blue-bar nav ul li a:hover {
 	border-top:1px solid #5f8fa9;
 }
 
-.text-content #shopping-cart {
+.blue-bar #shopping-cart {
 	position:absolute;
 	right:20%;
 	top:90px;
@@ -106,18 +106,18 @@ a:active {
 	border-radius:3px;
 }
 
-.text-content #shopping-cart:hover {
+.blue-bar #shopping-cart:hover {
 	background:#13384e;
 }
 
-.text-content footer {
+.blue-bar footer {
 	position:absolute;
 	bottom:18%;
 	min-height:30px;
 	margin-top:40px;
 }
 
-.text-content footer img {
+.blue-bar footer img {
 	margin-right:20px;
 }
 
@@ -127,14 +127,14 @@ a:active {
 	font-size:20px;
 }
 
-.image-content {
+.main-content {
 	float:left;
 	width:67%;
 	height:100%;
 	overflow:auto;
 }
 
-.image-content .products a {
+.main-content .products a {
 	color:#333;
 }
 
