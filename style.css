@@ -43,16 +43,16 @@ h2 {
 }
 
 a {
-	color:#fff;
+	color:#5f8fa9;
 	text-decoration:none;
 }
 
 a:hover {
-	color:#5f8fa9;
+	color:#13384e;
 }
 
 a:active {
-	color:#5f8fa9;
+	color:#13384e;
 }
 
 .blue-bar {
@@ -88,6 +88,7 @@ a:active {
 }
 
 .blue-bar nav ul li a {
+	color:#fff;
 	text-decoration:none;
 	margin-right:20px;
 	padding-top:2px;
@@ -113,8 +114,6 @@ a:active {
 }
 
 .blue-bar footer {
-	/*position:absolute;
-	bottom:18%;*/
 	min-height:30px;
 	margin-top:40px;
 	clear:both;
@@ -158,10 +157,6 @@ a:active {
 
 .special-products li:first-child {
 	width:100%;
-}
-
-.special-products li:last-child {
-	/*margin-left:5%;*/
 }
 
 .special-products li img {
@@ -248,10 +243,6 @@ a:active {
 	padding-left:5px;
 }
 
-#founders .founder-info a, .checkout-form a {
-	color:#5f8fa9;
-}
-
 #internship {
 	margin-left:40px;
 	margin-top:40px;
@@ -266,10 +257,6 @@ a:active {
 	display:inline-block;
 	max-width:400px;
 	padding-left:5px;
-}
-
-#internship .internship-info a {
-	color:#5f8fa9;
 }
 
 fieldset {
