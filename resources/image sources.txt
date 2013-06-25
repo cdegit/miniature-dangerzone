@@ -3,3 +3,4 @@ linda_peterson.jpg: http://www.freedigitalphotos.net/images/Business_People_g201
 student.jpg: http://www.freedigitalphotos.net/images/Leisure_Hobbies_g420-Beautiful_Art_p61915.html
 woodworking.jpg: http://www.freedigitalphotos.net/images/Manufacturing_And_In_g199-Woodwork_p31762.html
 woodworking2.jpg: http://www.freedigitalphotos.net/images/Manual_Jobs_g397-Woodturning_p150991.html
+patterns(squairy, pw_pattern and cream_pixels): http://subtlepatterns.com/
