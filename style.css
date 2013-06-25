@@ -67,7 +67,7 @@ a:active {
 	position:relative;
 	overflow-x:hidden;
 	overflow-y:auto;
-
+	background-image:url("resources/squairy_blue.png");
 }
 
 .blue-bar nav{
@@ -135,6 +135,7 @@ a:active {
 	width:67%;
 	height:100%;
 	overflow:auto;
+	background-image:url("resources/pw_pattern.png");
 }
 
 .main-content .products a {
