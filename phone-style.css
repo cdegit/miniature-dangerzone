@@ -36,6 +36,7 @@ h1 {
 	float:none;
 	width:100%;
 	overflow:visible;
+	height:auto;
 }
 
 .main-content li {
@@ -47,6 +48,11 @@ h1 {
 
 .products li {
 	margin-left:40px;
+}
+
+.product-images li{
+	float:left;
+	width:25%;
 }
 
 .special-products .product-info {
