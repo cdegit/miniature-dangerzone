@@ -71,7 +71,7 @@ a:active {
 .blue-bar nav{
 	margin-bottom:40px;
 	margin-top:15px;
-	min-height:100px;
+	min-height:70px;
 }
 
 .blue-bar nav  ul{
@@ -209,6 +209,19 @@ a:active {
 .products li, .cart li {
 	margin-right:20px;
 	margin-bottom:40px;
+}
+
+.related-products {
+	margin-top:10px;
+}
+
+.related-products ul {
+	height:auto;
+	min-height:100px;
+}
+
+.related-products li {
+	margin-right:10px;
 }
 
 .checkout-divider {

@@ -3,7 +3,7 @@ body {
 	overflow-x:hidden;
 }
 
-.text-content {
+.blue-bar {
 	float:none;
 	width:100%;
 	height:auto;
@@ -14,31 +14,31 @@ h1 {
 	margin:2px;
 }
 
-.text-content #shopping-cart {
+.blue-bar #shopping-cart {
 	top:25px;
 }
 
-.text-content nav {
+.blue-bar nav {
 	min-height:80px;
 	margin:0px;
 }
 
-.text-content .description {
+.blue-bar .description {
 	padding-left:5px;
 	padding-right:30px;
 }
 
-.text-content footer {
+.blue-bar footer {
 	position:relative;
 }
 
-.image-content {
+.main-content {
 	float:none;
 	width:100%;
 	overflow:visible;
 }
 
-.image-content li {
+.main-content li {
 	float:none;
 	padding-bottom:20px;
 	display:block;
