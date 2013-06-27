@@ -307,12 +307,12 @@ form input[type="submit"]:hover , button:hover{
 	color:#24bd24;
 }
 
-.contact-form {
+.contact-form, .checkout-form, #create-account{
 	margin-left:40px;
 	margin-top:40px;
 }
 
-.contact-form form label, .checkout-form form label {
+form label, form input {
 	display:block;
 	font-weight:bold;
 }
@@ -323,11 +323,6 @@ form input[type="submit"]:hover , button:hover{
 
 .contact-form fieldset, .checkout-form fieldset {
 	padding-bottom:20px;
-}
-
-.checkout-form {
-	margin-top:40px;
-	margin-left:40px;
 }
 
 .checkout-divider {
@@ -342,4 +337,8 @@ form input[type="submit"]:hover , button:hover{
 
 .checkout-form #security-code {
 	width:50px;
+}
+
+#cart-information {
+	margin-left:40px;
 }
