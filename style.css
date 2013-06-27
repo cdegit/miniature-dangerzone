@@ -22,6 +22,10 @@ li {
 	float:left;
 }
 
+img {
+	border:none;
+}
+
 h1 {
 	border-top:4px solid #fff;
 	display:inline-block;
