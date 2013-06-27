@@ -312,9 +312,13 @@ form input[type="submit"]:hover , button:hover{
 	margin-top:40px;
 }
 
-form label, form input {
+form label {
 	display:block;
 	font-weight:bold;
+}
+
+form input {
+	display:block;
 }
 
 .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea, .checkout-form input[type="text"], .checkout-form input[type="email"]{

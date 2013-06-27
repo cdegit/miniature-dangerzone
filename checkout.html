@@ -7,6 +7,7 @@
 		<link rel="stylesheet" media="only screen and (max-width: 480px)" href="phone-style.css" /> <!-- phone style -->	
 		<link rel="stylesheet" media="only screen and (min-width:481px) and (max-width:768px)" href="tablet-style.css" /> <!-- table style -->	
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery include -->
+		<script type="text/javascript" src="checkout.js"></script>
 		<script type="text/javascript" src="script.js"></script>
 		<title>Bezal | Checkout</title>
 	</head>
@@ -54,125 +55,130 @@
 				<div class="checkout-form">
 					<p>Purchase as a Guest or <a href="">Create an Account</a>.</p>
 					<form action="confirm-purchase.html" method="post">
-						<h3>Billing Information</h3>
-						<hr class="checkout-divider">
-						<fieldset>
-							<label for="name">Name*:</label>
-							<input type="text" name="name" id="name" placeholder="Jane Doe" required />
-							
-							<label for="email">Email*:</label>
-							<input type="email" name="email" id="email" placeholder="email@domain.com" required />
-						</fieldset>
+						<div id="billing-info">
+							<h3>Billing Information</h3>
+							<hr class="checkout-divider">
+							<fieldset>
+								<label for="name">Name*:</label>
+								<input type="text" name="name" id="name" placeholder="Jane Doe" required />
+								
+								<label for="email">Email*:</label>
+								<input type="email" name="email" id="email" placeholder="email@domain.com" required />
+							</fieldset>
 
-						<fieldset>
-							<label for="address">Address*:</label>
-							<input type="text" name="address" id="address" required />
+							<fieldset>
+								<label for="address">Address*:</label>
+								<input type="text" name="address" id="address" required />
+								
+								<label for="address2">Address 2:</label>
+								<input type="text" name="address2" id="address2" />
+								
+								<label for="city">City*:</label>
+								<input type="text" name="city" id="city" required />
+								
+								<label for="province">Province*:</label>
+								<select name="province" id="province">
+									<option><option>
+									<option value="bc">British Columbia</option>
+									<option value="ab">Alberta</option>
+									<option value="sk">Saskatchewan</option>
+									<option value="mb">Manitoba</option>
+									<option value="on">Ontarion</option>
+									<option value="qc">Quebec</option>
+									<option value="nb">New Brunswick</option>
+									<option value="ns">Nova Scotia</option>
+									<option value="nf">Newfoundland and Labrador</option>
+									<option value="pei">PEI</option>
+									<option value="yk">Yukon</option>
+									<option value="nwt">NWT</option>
+									<option value="nu">Nunavut</option>
+								</select>
+								
+								<label for="postal">Postal Code*:</label>
+								<input type="text" name="postal" id="postal" required />				
+							</fieldset>
 							
-							<label for="address2">Address 2:</label>
-							<input type="text" name="address2" id="address2" />
-							
-							<label for="city">City*:</label>
-							<input type="text" name="city" id="city" required />
-							
-							<label for="province">Province*:</label>
-							<select name="province" id="province">
-								<option><option>
-								<option value="bc">British Columbia</option>
-								<option value="ab">Alberta</option>
-								<option value="sk">Saskatchewan</option>
-								<option value="mb">Manitoba</option>
-								<option value="on">Ontarion</option>
-								<option value="qc">Quebec</option>
-								<option value="nb">New Brunswick</option>
-								<option value="ns">Nova Scotia</option>
-								<option value="nf">Newfoundland and Labrador</option>
-								<option value="pei">PEI</option>
-								<option value="yk">Yukon</option>
-								<option value="nwt">NWT</option>
-								<option value="nu">Nunavut</option>
-							</select>
-							
-							<label for="postal">Postal Code*:</label>
-							<input type="text" name="postal" id="postal" required />				
-						</fieldset>
+							<fieldset>
+								<label for="card">Card Number*:</label>
+								<input type="text" name="card" id="card" placeholder="xxxx-xxxx-xxxx-xxxx" required />
+								
+								<label for="month">Expiry Date*:</label>
+								<select name="month" id="month" required>
+									<option></option>
+									<option value="1">1 - Jan</option>
+									<option value="2">2 - Feb</option>
+									<option value="3">3 - Mar</option>
+									<option value="4">4 - Apr</option>
+									<option value="5">5 - May</option>
+									<option value="6">6 - June</option>
+									<option value="7">7 - July</option>
+									<option value="8">8 - Aug</option>
+									<option value="9">9 - Sep</option>
+									<option value="10">10 - Oct</option>
+									<option value="11">11 - Nov</option>
+									<option value="12">12 - Dec</option>
+								</select>
+								<select name="year" id="year" required>
+									<option></option>
+									<option value="2013">2013</option>
+									<option value="2014">2014</option>
+									<option value="2015">2015</option>
+									<option value="2016">2016</option>
+									<option value="2017">2017</option>
+									<option value="2018">2018</option>
+									<option value="2019">2019</option>
+									<option value="2020">2020</option>
+									<option value="2021">2021</option>
+									<option value="2022">2022</option>
+								</select>
+								
+								<label for="security-code">Security Code*:</label>
+								<input type="text" name="security-code" id="security-code" required />
+							</fieldset>
+						</div><!--billing-info-->
 						
-						<fieldset>
-							<label for="card">Card Number*:</label>
-							<input type="text" name="card" id="card" placeholder="xxxx-xxxx-xxxx-xxxx" required />
-							
-							<label for="month">Expiry Date*:</label>
-							<select name="month" id="month" required>
-								<option></option>
-								<option value="1">1 - Jan</option>
-								<option value="2">2 - Feb</option>
-								<option value="3">3 - Mar</option>
-								<option value="4">4 - Apr</option>
-								<option value="5">5 - May</option>
-								<option value="6">6 - June</option>
-								<option value="7">7 - July</option>
-								<option value="8">8 - Aug</option>
-								<option value="9">9 - Sep</option>
-								<option value="10">10 - Oct</option>
-								<option value="11">11 - Nov</option>
-								<option value="12">12 - Dec</option>
-							</select>
-							<select name="year" id="year" required>
-								<option></option>
-								<option value="2013">2013</option>
-								<option value="2014">2014</option>
-								<option value="2015">2015</option>
-								<option value="2016">2016</option>
-								<option value="2017">2017</option>
-								<option value="2018">2018</option>
-								<option value="2019">2019</option>
-								<option value="2020">2020</option>
-								<option value="2021">2021</option>
-								<option value="2022">2022</option>
-							</select>
-							
-							<label for="security-code">Security Code*:</label>
-							<input type="text" name="security-code" id="security-code" required />
-						</fieldset>
-						
-						
-						<h3>Shipping Information</h3>
-						<hr class="checkout-divider">		
+						<div id="shipping-info">
+							<h3>Shipping Information</h3>
+							<hr class="checkout-divider">		
 
-						<fieldset>
-							<label for="use-billing-address">Same as Address Above: </label> <!-- add jQuery later to make this actually do stuff -->
-							<input type="checkbox" id="use-billing-address" name="use-billing-address" />
-						</fieldset>
-						
-						<fieldset>
-							<label for="s_address">Address*:</label>
-							<input type="text" name="s_address" id="s_address" required />
+							<fieldset>
+								<label for="use-billing-address">Same as Address Above: </label> <!-- add jQuery later to make this actually do stuff -->
+								<input type="checkbox" id="use-billing-address" name="use-billing-address" />
+							</fieldset>
 							
-							<label for="s_address2">Address 2:</label>
-							<input type="text" name="s_address2" id="s_address2" />
+							<fieldset>
+								<label for="s_address">Address*:</label>
+								<input type="text" name="s_address" id="s_address" required />
+								
+								<label for="s_address2">Address 2:</label>
+								<input type="text" name="s_address2" id="s_address2" />
+								
+								<label for="s_city">City*:</label>
+								<input type="text" name="city" id="s_city" required />
+								
+								<label for="s_province">Province*:</label>
+								<select name="s_province" id="s_province" >
+									<option></option>
+									<option value="bc">British Columbia</option>
+									<option value="ab">Alberta</option>
+									<option value="sk">Saskatchewan</option>
+									<option value="mb">Manitoba</option>
+									<option value="on">Ontarion</option>
+									<option value="qc">Quebec</option>
+									<option value="nb">New Brunswick</option>
+									<option value="ns">Nova Scotia</option>
+									<option value="nf">Newfoundland and Labrador</option>
+									<option value="pei">PEI</option>
+									<option value="yk">Yukon</option>
+									<option value="nwt">NWT</option>
+									<option value="nu">Nunavut</option>
+								</select>
+								
+								<label for="s_postal">Postal Code*:</label>
+								<input type="text" name="s_postal" id="s_postal" required />				
+							</fieldset>
 							
-							<label for="s_city">City*:</label>
-							<input type="text" name="city" id="s_city" required />
-							
-							<label for="s_province">Province*:</label>
-							<select name="s_province" id="s_province" >
-								<option value="bc">British Columbia</option>
-								<option value="ab">Alberta</option>
-								<option value="sk">Saskatchewan</option>
-								<option value="mb">Manitoba</option>
-								<option value="on">Ontarion</option>
-								<option value="qc">Quebec</option>
-								<option value="nb">New Brunswick</option>
-								<option value="ns">Nova Scotia</option>
-								<option value="nf">Newfoundland and Labrador</option>
-								<option value="pei">PEI</option>
-								<option value="yk">Yukon</option>
-								<option value="nwt">NWT</option>
-								<option value="nu">Nunavut</option>
-							</select>
-							
-							<label for="s_postal">Postal Code*:</label>
-							<input type="text" name="s_postal" id="s_postal" required />				
-						</fieldset>
+						</div><!--shipping-info-->
 						
 						<input type="submit" value="Confirm Purchase" />
 					</form>
