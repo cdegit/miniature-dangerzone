@@ -52,5 +52,9 @@ $(document).ready(function() {	// jQuery wrapper
 		$("#total").html("Item total: $" + newTotal);
 	}
 	
+	$('.quantity').keypress(function(e){
+		if ( e.which == 13 ) e.preventDefault();
+	});	
+	
 	
 });
