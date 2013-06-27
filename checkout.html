@@ -53,8 +53,23 @@
 			
 			<div class="main-content">
 				<div class="checkout-form">
-					<p>Purchase as a Guest or <a href="">Create an Account</a>.</p>
+					<p>Purchase as a Guest or <a href="#" id="create-account-link">Create an Account</a>.</p>
 					<form action="confirm-purchase.html" method="post">
+						<div id="checkout-create-account">
+							<h3>Account Information</h3>
+								<hr class="checkout-divider">
+								<fieldset>
+									<label for="email">Email*:</label>
+									<input type="email" name="email" id="email" placeholder="email@domain.com" /><!-- Would actually default to the email they previously entered -->
+								
+									<label for="password">Password*:</label>
+									<input type="password" id="password" name="password" />
+									
+									<label for="confirm_password">Confirm Password*:</label>
+									<input type="password" id="confirm_password" name="confirm_password" />
+								</fieldset>
+						</div>
+					
 						<div id="billing-info">
 							<h3>Billing Information</h3>
 							<hr class="checkout-divider">

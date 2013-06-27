@@ -346,3 +346,7 @@ form input {
 #cart-information {
 	margin-left:40px;
 }
+
+#checkout-create-account {
+	display:none;
+}

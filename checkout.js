@@ -14,4 +14,10 @@ $(document).ready(function() {	// jQuery wrapper
 			$("#shipping-info input, #shipping-info select").prop("disabled", false);
 		}
 	});
+	
+	$("#create-account-link").click(function(event) {
+		event.preventDefault();
+		$("#checkout-create-account").show();
+		$("#checkout-create-account input").prop("required", true);
+	});
 });
